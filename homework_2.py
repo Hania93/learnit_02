@@ -1,5 +1,5 @@
-# #Zadanie 1.
-# #Utwórz dwie zmienne number_1 i number_2. Do każdej przypisz dowolną liczbę całkowitą. Za pomocą funkcji print wypisz na ekranie efekt porównań tych liczb - użyj porównań: >, <, ==. 
+# Zadanie 1.
+# Utwórz dwie zmienne number_1 i number_2. Do każdej przypisz dowolną liczbę całkowitą. Za pomocą funkcji print wypisz na ekranie efekt porównań tych liczb - użyj porównań: >, <, ==. 
 # Przykład:
 
 number_1 = 10
@@ -49,12 +49,17 @@ else:
 
 # Zadanie 5.
 # Pobierz od użytkownika dwie liczby i zapisz je w zmiennych number_1 oraz number_2.
-
 # Za pomocą instrukcji if sprawdź:
-
 # jeżeli którakolwiek z liczb jest równa 0 – wypisz "Jedna z liczb to zero"
 # w przeciwnym wypadku wypisz "Żadna z liczb nie jest zerem"
 
+number_1 = int(input("Podaj pierwszą liczbę: "))
+number_2 = int(input("Podaj drugą liczbę: "))
+
+if number_1 == 0 or number_2 == 0:
+    print("Jedna z liczb to zero")
+else:
+    print("Żadna z liczb nie jest zerem")
 
 # Zadanie 6.
 # Pobierz od użytkownika pierwszy składnik na danie i zapisz go w zmiennej ingredient_1. Następnie pobierz drugi składnik i zapisz go w zmiennej ingredient_2.
